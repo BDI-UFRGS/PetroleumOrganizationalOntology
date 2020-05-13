@@ -1,0 +1,2052 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/luci/ontologies/2020/4/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/luci/ontologies/2020/4/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/luci/ontologies/2020/4/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/iao/2019-06-07/iao.owl</Import>
+    <Declaration>
+        <Class IRI="#advogado_geral_da_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aguas_profundas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aguas_ultra_profundas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assuntos_corporativos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auditoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auditoria_externa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auditoria_interna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buzios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cenpes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chefe_do_gabinete_da_presidencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comercializacao_no_mercado_externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comercializacao_no_mercado_interno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_auditoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_auditoria_do_conglomerado_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_investimentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_minoritarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_pessoas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_de_seguranca_meio_ambiente_e_saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_deliberativo_e_consultivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_assuntos_corporativos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_desenvolvimento_da_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_exploracao_e_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_governanca_e_conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_refino_e_gas_natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_relacionamento_institucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_de_transformacao_digital_e_inovacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnico_estatutario_financeiro_e_de_relacionamento_com_investidores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comunicacao_e_marcas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conselho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conselho_de_administracao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conselho_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contabilidade_e_tributario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordenador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desempenhoempresarial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diretor_executivo_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#estrategia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exploracao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exploracao_e_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#financas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gabinete_da_presidencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gas_energia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_de_plataforma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_aguas_profundas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_aguas_ultra_profundas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_auditoria_interna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_avaliacao_exploratoria_desenvolvimento_da_producao_e_gestao_dos_investimentos_de_libra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_buzios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_interno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_comunicacao_e_marcas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_contabilidade_e_tributario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_desempenho_empresarial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_estrategia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_exploracao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_financas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_gas_e_energia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_gestao_de_portfolio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_governanca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_integracao_de_negocios_e_participacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_inteligencia_e_seguranca_corporativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_logistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_logistica_manutencao_e_suporte_às_operacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_pesquisa_e_desenvolvimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_pocos_maritimos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_projetos_de_desenvolvimento_da_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_recursos_humanos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_relacionamento_com_investidores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_relacionamento_externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_reservatorios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_responsabilidade_social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_riscos_empresariais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_seguranca_cibernetica_e_de_informacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_seguranca_meio_ambiente_e_saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_servicos_compartilhados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_sistemas_de_superficie_refino_gas_e_energia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_sistemas_submarinos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_suprimento_de_bens_e_servicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_tecnologia_da_informacao_e_telecomunicacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_executivo_de_terra_e_aguas_rasas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_recursos_e_projetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_integridade_corporativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_produtividade_gestao_e_organizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_supervisao_integrada_de_planos_de_previdencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_transformacao_digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_geral_de_unidade_de_negocios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gerente_setorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestao_do_portifolio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestao_integrada_de_recursos_e_projetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#governanca_e_conformidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#governança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#integracao_de_negocios_e_participacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#integridade_corporativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inteligencia_e_seguranca_corporativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#juridico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#libra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#logistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#logistica_manutencao_e_suporte_as_operacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ouvidor_geral_da_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ouvidoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ouvidoria_geral_da_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pocos_maritimos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presidente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presidente_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#produtividade_gestao_e_organizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#projetos_de_dp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recursos_humanos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#refino_e_gas_natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relacionamento_com_investidores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relacionamento_externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relacionamento_institucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reservatorios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#responsabilidade_social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#riscos_empresariais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secretaria_geral_da_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secretario_geral_da_petrobras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seguranca_cibernetica_e_de_informacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seguranca_meio_ambiente_e_saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#servicos_compartilhados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sistema_de_superficie_refino_gas_e_energia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sistemas_submarinos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supervisao_integrada_de_planos_de_previdencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suprimento_de_bens_e_servicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tecnologia_da_informacao_e_telecomunicacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#terra_e_agua_rasas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transformacao_digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#advogado_geral_da_petrobras"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aguas_profundas"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aguas_profundas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aguas_ultra_profundas"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aguas_ultra_profundas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assuntos_corporativos"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auditoria"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auditoria_externa"/>
+        <Class IRI="#auditoria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auditoria_interna"/>
+        <Class IRI="#auditoria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buzios"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buzios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cenpes"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cenpes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chefe_do_gabinete_da_presidencia"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comercializacao_no_mercado_externo"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comercializacao_no_mercado_externo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comercializacao_no_mercado_interno"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comercializacao_no_mercado_interno"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_auditoria"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_auditoria_do_conglomerado_petrobras"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_investimentos"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_minoritarios"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_pessoas"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_de_seguranca_meio_ambiente_e_saude"/>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_deliberativo_e_consultivo"/>
+        <Class IRI="#committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_estatutario_do_conselho_de_administracao"/>
+        <Class IRI="#committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_assuntos_corporativos"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_desenvolvimento_da_producao"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_exploracao_e_producao"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_governanca_e_conformidade"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_refino_e_gas_natural"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_relacionamento_institucional"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_de_transformacao_digital_e_inovacao"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnico_estatutario_financeiro_e_de_relacionamento_com_investidores"/>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comite_tecnicos_estatutario"/>
+        <Class IRI="#committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#committee"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comunicacao_e_marcas"/>
+        <Class IRI="#relacionamento_institucional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comunicacao_e_marcas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#relacionamento_institucional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conformidade"/>
+        <Class IRI="#governanca_e_conformidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conformidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#governanca_e_conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conselho"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conselho_de_administracao"/>
+        <Class IRI="#conselho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conselho_fiscal"/>
+        <Class IRI="#conselho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contabilidade_e_tributario"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contabilidade_e_tributario"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordenador"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#department"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desempenhoempresarial"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desempenhoempresarial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desenvolvimento_da_producao"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#assuntos_corporativos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_assuntos_corporativos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#governanca_e_conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_governanca_e_conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#relacionamento_institucional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_relacionamento_institucional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores"/>
+        <Class IRI="#diretor_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diretor_executivo_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#diretor_executivo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estrategia"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exploracao"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exploracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exploracao_e_producao"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#financas"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#financas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gabinete_da_presidencia"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gas_energia"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gas_energia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_de_plataforma"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_aguas_profundas"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_aguas_profundas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#aguas_profundas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_aguas_ultra_profundas"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_aguas_ultra_profundas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#aguas_ultra_profundas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_auditoria_interna"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_auditoria_interna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#auditoria_interna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_avaliacao_exploratoria_desenvolvimento_da_producao_e_gestao_dos_investimentos_de_libra"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_avaliacao_exploratoria_desenvolvimento_da_producao_e_gestao_dos_investimentos_de_libra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#libra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_buzios"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_buzios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#buzios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_externo"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_externo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#comercializacao_no_mercado_externo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_interno"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comercializacao_no_mercado_interno"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#comercializacao_no_mercado_interno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comunicacao_e_marcas"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_comunicacao_e_marcas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#comunicacao_e_marcas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_conformidade"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_conformidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_contabilidade_e_tributario"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_contabilidade_e_tributario"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#contabilidade_e_tributario"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_desempenho_empresarial"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_desempenho_empresarial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#desempenhoempresarial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_estrategia"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_estrategia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#estrategia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_exploracao"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_exploracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#exploracao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_financas"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_financas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#financas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_gas_e_energia"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_gas_e_energia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#gas_energia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_gestao_de_portfolio"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_gestao_de_portfolio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#gestao_do_portifolio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_governanca"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_governanca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#governança"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_industrial"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_industrial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#industrial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_integracao_de_negocios_e_participacoes"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_integracao_de_negocios_e_participacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#integracao_de_negocios_e_participacoes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_inteligencia_e_seguranca_corporativa"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_inteligencia_e_seguranca_corporativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#inteligencia_e_seguranca_corporativa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_logistica"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_logistica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#logistica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_logistica_manutencao_e_suporte_às_operacoes"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_logistica_manutencao_e_suporte_às_operacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#logistica_manutencao_e_suporte_as_operacoes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_pesquisa_e_desenvolvimento"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_pesquisa_e_desenvolvimento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#cenpes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_pocos_maritimos"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_pocos_maritimos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#pocos_maritimos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_projetos_de_desenvolvimento_da_producao"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_projetos_de_desenvolvimento_da_producao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#projetos_de_dp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_recursos_humanos"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_recursos_humanos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#recursos_humanos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_relacionamento_com_investidores"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_relacionamento_com_investidores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_relacionamento_externo"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_relacionamento_externo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#relacionamento_externo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_reservatorios"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_reservatorios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#reservatorios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_responsabilidade_social"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_responsabilidade_social"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#responsabilidade_social"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_riscos_empresariais"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_riscos_empresariais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#riscos_empresariais"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_seguranca_cibernetica_e_de_informacao"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_seguranca_cibernetica_e_de_informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#seguranca_cibernetica_e_de_informacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_seguranca_meio_ambiente_e_saude"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_seguranca_meio_ambiente_e_saude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#seguranca_meio_ambiente_e_saude"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_servicos_compartilhados"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_servicos_compartilhados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#servicos_compartilhados"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_sistemas_de_superficie_refino_gas_e_energia"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_sistemas_de_superficie_refino_gas_e_energia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#sistema_de_superficie_refino_gas_e_energia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_sistemas_submarinos"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_sistemas_submarinos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#sistemas_submarinos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_suprimento_de_bens_e_servicos"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_suprimento_de_bens_e_servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#suprimento_de_bens_e_servicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_tecnologia_da_informacao_e_telecomunicacoes"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_tecnologia_da_informacao_e_telecomunicacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#tecnologia_da_informacao_e_telecomunicacoes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_terra_e_aguas_rasas"/>
+        <Class IRI="#gerente_executivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_executivo_de_terra_e_aguas_rasas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#terra_e_agua_rasas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_recursos_e_projetos"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_gestao_integrada_de_recursos_e_projetos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#gestao_integrada_de_recursos_e_projetos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_integridade_corporativa"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_integridade_corporativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#integridade_corporativa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_produtividade_gestao_e_organizacao"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_produtividade_gestao_e_organizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#produtividade_gestao_e_organizacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_supervisao_integrada_de_planos_de_previdencia"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_supervisao_integrada_de_planos_de_previdencia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#supervisao_integrada_de_planos_de_previdencia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_transformacao_digital"/>
+        <Class IRI="#gerente_geral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_transformacao_digital"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#transformacao_digital"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_geral_de_unidade_de_negocios"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gerente_setorial"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gestao_do_portifolio"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gestao_integrada_de_recursos_e_projetos"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gestao_integrada_de_recursos_e_projetos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#governanca_e_conformidade"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#governança"/>
+        <Class IRI="#governanca_e_conformidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#governança"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#governanca_e_conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#industrial"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#industrial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integracao_de_negocios_e_participacoes"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integracao_de_negocios_e_participacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integridade_corporativa"/>
+        <Class IRI="#governanca_e_conformidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#integridade_corporativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#governanca_e_conformidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inteligencia_e_seguranca_corporativa"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#juridico"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#libra"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#libra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logistica"/>
+        <Class IRI="#refino_e_gas_natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logistica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#refino_e_gas_natural"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logistica_manutencao_e_suporte_as_operacoes"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logistica_manutencao_e_suporte_as_operacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organism"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organization"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ouvidor_geral_da_petrobras"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ouvidor_geral_da_petrobras"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="#ouvidoria_geral_da_petrobras"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ouvidoria"/>
+        <Class IRI="#organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ouvidoria_geral_da_petrobras"/>
+        <Class IRI="#ouvidoria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pocos_maritimos"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pocos_maritimos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presidente"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presidente_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presidente_role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
+            <Class IRI="#presidente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#produtividade_gestao_e_organizacao"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#produtividade_gestao_e_organizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#projetos_de_dp"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#projetos_de_dp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recursos_humanos"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#refino_e_gas_natural"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relacionamento_com_investidores"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relacionamento_com_investidores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relacionamento_externo"/>
+        <Class IRI="#relacionamento_institucional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relacionamento_externo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#relacionamento_institucional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relacionamento_institucional"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reservatorios"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reservatorios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#responsabilidade_social"/>
+        <Class IRI="#relacionamento_institucional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#responsabilidade_social"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#relacionamento_institucional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#riscos_empresariais"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#riscos_empresariais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secretaria_geral_da_petrobras"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secretario_geral_da_petrobras"/>
+        <Class IRI="#organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seguranca_cibernetica_e_de_informacao"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seguranca_cibernetica_e_de_informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seguranca_meio_ambiente_e_saude"/>
+        <Class IRI="#assuntos_corporativos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seguranca_meio_ambiente_e_saude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#assuntos_corporativos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#servicos_compartilhados"/>
+        <Class IRI="#assuntos_corporativos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#servicos_compartilhados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#assuntos_corporativos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sistema_de_superficie_refino_gas_e_energia"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sistema_de_superficie_refino_gas_e_energia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sistemas_submarinos"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sistemas_submarinos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#desenvolvimento_da_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supervisao_integrada_de_planos_de_previdencia"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supervisao_integrada_de_planos_de_previdencia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suprimento_de_bens_e_servicos"/>
+        <Class IRI="#assuntos_corporativos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suprimento_de_bens_e_servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#assuntos_corporativos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tecnologia_da_informacao_e_telecomunicacoes"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tecnologia_da_informacao_e_telecomunicacoes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#terra_e_agua_rasas"/>
+        <Class IRI="#exploracao_e_producao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#terra_e_agua_rasas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#exploracao_e_producao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transformacao_digital"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transformacao_digital"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#transformacao_digital_e_inovacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+        <Class IRI="#department"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <Class IRI="#organism"/>
+        <Class IRI="#organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000442"/>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos_role"/>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao_role"/>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao_role"/>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade_role"/>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural_role"/>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional_role"/>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao_role"/>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores_role"/>
+        <Class IRI="#presidente_role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#advogado_geral_da_petrobras"/>
+        <Class IRI="#chefe_do_gabinete_da_presidencia"/>
+        <Class IRI="#coordenador"/>
+        <Class IRI="#diretor_executivo"/>
+        <Class IRI="#gerente"/>
+        <Class IRI="#gerente_de_plataforma"/>
+        <Class IRI="#gerente_executivo"/>
+        <Class IRI="#gerente_geral"/>
+        <Class IRI="#gerente_geral_de_unidade_de_negocios"/>
+        <Class IRI="#gerente_setorial"/>
+        <Class IRI="#ouvidor_geral_da_petrobras"/>
+        <Class IRI="#presidente"/>
+        <Class IRI="#secretario_geral_da_petrobras"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#aguas_profundas"/>
+        <Class IRI="#aguas_ultra_profundas"/>
+        <Class IRI="#buzios"/>
+        <Class IRI="#exploracao"/>
+        <Class IRI="#gestao_integrada_de_ativos_de_exploracao_e_producao"/>
+        <Class IRI="#libra"/>
+        <Class IRI="#logistica_manutencao_e_suporte_as_operacoes"/>
+        <Class IRI="#reservatorios"/>
+        <Class IRI="#terra_e_agua_rasas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#assuntos_corporativos"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+        <Class IRI="#estrategia"/>
+        <Class IRI="#exploracao_e_producao"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        <Class IRI="#gabinete_da_presidencia"/>
+        <Class IRI="#gestao_do_portifolio"/>
+        <Class IRI="#governanca_e_conformidade"/>
+        <Class IRI="#inteligencia_e_seguranca_corporativa"/>
+        <Class IRI="#juridico"/>
+        <Class IRI="#recursos_humanos"/>
+        <Class IRI="#refino_e_gas_natural"/>
+        <Class IRI="#relacionamento_institucional"/>
+        <Class IRI="#secretaria_geral_da_petrobras"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#assuntos_corporativos"/>
+        <Class IRI="#desenvolvimento_da_producao"/>
+        <Class IRI="#exploracao_e_producao"/>
+        <Class IRI="#financieira_e_de_relacionamento_com_investidores"/>
+        <Class IRI="#governanca_e_conformidade"/>
+        <Class IRI="#refino_e_gas_natural"/>
+        <Class IRI="#relacionamento_institucional"/>
+        <Class IRI="#transformacao_digital_e_inovacao"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#auditoria_externa"/>
+        <Class IRI="#auditoria_interna"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cenpes"/>
+        <Class IRI="#produtividade_gestao_e_organizacao"/>
+        <Class IRI="#seguranca_cibernetica_e_de_informacao"/>
+        <Class IRI="#tecnologia_da_informacao_e_telecomunicacoes"/>
+        <Class IRI="#transformacao_digital"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#comercializacao_no_mercado_externo"/>
+        <Class IRI="#comercializacao_no_mercado_interno"/>
+        <Class IRI="#gas_energia"/>
+        <Class IRI="#industrial"/>
+        <Class IRI="#integracao_de_negocios_e_participacoes"/>
+        <Class IRI="#logistica"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#comite_de_auditoria"/>
+        <Class IRI="#comite_de_auditoria_do_conglomerado_petrobras"/>
+        <Class IRI="#comite_de_investimentos"/>
+        <Class IRI="#comite_de_minoritarios"/>
+        <Class IRI="#comite_de_pessoas"/>
+        <Class IRI="#comite_de_seguranca_meio_ambiente_e_saude"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#comite_tecnico_estatutario_de_assuntos_corporativos"/>
+        <Class IRI="#comite_tecnico_estatutario_de_desenvolvimento_da_producao"/>
+        <Class IRI="#comite_tecnico_estatutario_de_exploracao_e_producao"/>
+        <Class IRI="#comite_tecnico_estatutario_de_governanca_e_conformidade"/>
+        <Class IRI="#comite_tecnico_estatutario_de_refino_e_gas_natural"/>
+        <Class IRI="#comite_tecnico_estatutario_de_relacionamento_institucional"/>
+        <Class IRI="#comite_tecnico_estatutario_de_transformacao_digital_e_inovacao"/>
+        <Class IRI="#comite_tecnico_estatutario_financeiro_e_de_relacionamento_com_investidores"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#committee"/>
+        <Class IRI="#department"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#comunicacao_e_marcas"/>
+        <Class IRI="#relacionamento_externo"/>
+        <Class IRI="#responsabilidade_social"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#conformidade"/>
+        <Class IRI="#governança"/>
+        <Class IRI="#integridade_corporativa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#contabilidade_e_tributario"/>
+        <Class IRI="#desempenhoempresarial"/>
+        <Class IRI="#financas"/>
+        <Class IRI="#relacionamento_com_investidores"/>
+        <Class IRI="#riscos_empresariais"/>
+        <Class IRI="#supervisao_integrada_de_planos_de_previdencia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#diretor_executivo_de_assuntos_corporativos"/>
+        <Class IRI="#diretor_executivo_de_desenvolvimento_da_producao"/>
+        <Class IRI="#diretor_executivo_de_exploracao_e_producao"/>
+        <Class IRI="#diretor_executivo_de_governanca_e_conformidade"/>
+        <Class IRI="#diretor_executivo_de_refino_e_gas_natural"/>
+        <Class IRI="#diretor_executivo_de_relacionamento_institucional"/>
+        <Class IRI="#diretor_executivo_de_transformacao_digital_e_inovacao"/>
+        <Class IRI="#diretor_executivo_financeiro_e_de_relacionamento_com_investidores"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#gestao_integrada_de_recursos_e_projetos"/>
+        <Class IRI="#pocos_maritimos"/>
+        <Class IRI="#projetos_de_dp"/>
+        <Class IRI="#sistema_de_superficie_refino_gas_e_energia"/>
+        <Class IRI="#sistemas_submarinos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#seguranca_meio_ambiente_e_saude"/>
+        <Class IRI="#servicos_compartilhados"/>
+        <Class IRI="#suprimento_de_bens_e_servicos"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#committee</IRI>
+        <Literal xml:lang="en">an organization consisting of persons who bear committee member role where that organization is appointed by an organization or members of an organization to realize a role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#conselho_de_administracao</IRI>
+        <Literal xml:lang="pt">O Conselho de Administração é um órgão colegiado de orientação e direção superior da Petrobras, responsável pela definição das estratégias. Suas atribuições estão estabelecidas no Estatuto Social da Companhia. Este órgão é composto por, no mínimo, sete membros, e no máximo onze membros eleitos pela Assembleia Geral de Acionistas, que também deverá designar dentre estes o Presidente do Conselho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#conselho_fiscal</IRI>
+        <Literal xml:lang="pt">O Conselho Fiscal é um órgão colegiado, de caráter permanente, composto por até 5 membros eleitos pela Assembleia Geral, com atribuição de fiscalizar os atos praticados pelos administradores, especificamente sob o aspecto de sua conformidade com a lei e o Estatuto Social, bem como de opinar sobre as demonstrações financeiras da Companhia, restando aos administradores a análise de conveniência e oportunidade dos atos de gestão da Companhia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#department</IRI>
+        <Literal xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#organism</IRI>
+        <Literal xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#organization</IRI>
+        <Literal xml:lang="en">An organization is a continuant entity which can play roles,  has members, and has a set of organization rules.  Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
